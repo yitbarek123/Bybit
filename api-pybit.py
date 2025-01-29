@@ -73,7 +73,6 @@ def value_to_sell():
     return balance
 amount_to_sell=value_to_sell()
 amount_to_sell = math.floor(float(amount_to_sell) * 10**2) / 10**2 
-amount_to_sell=amount_to_sell
 bigcnt=0
 sel=0
 while True:
